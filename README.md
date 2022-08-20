@@ -39,7 +39,10 @@ There were a number of assumptions we had to take into account before implementi
 
 Furthermore, we also had to keep in mind the basic crux of how all these entities will interact with each other and drawing relationships(M-N, M-1,1-M) resulted in a more comprehensive database design. 
 
+### EER Model
 ![image](https://user-images.githubusercontent.com/53343462/185743920-60752361-0ca3-496c-b3b6-7b9c446cdf87.png)
+### EER to Relational Model Transformation
+![image](https://user-images.githubusercontent.com/53343462/185743977-a46274b6-4699-4a17-b866-d5a9345aac12.png)
 
 
 # Getting Started with Create React App
