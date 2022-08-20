@@ -10,18 +10,19 @@ The website will provide interface to the user through which they can get the en
 The design requirements of the given problem statement were as follows:
 •	To design an Airport Management System with the basic functionalities:
 1.	Insert new People into the system
-    a.Insert new Pilots
-    b.Insert new Service Workers
-    c.Insert new Passengers
-    d.Insert new Flight Controllers
+    1.  Insert new Pilots
+    2.  Insert new Service Workers
+    3.  Insert new Passengers
+    4.  Insert new Flight Controllers
 2.	Show new Flights
-    a.Show Passengers on board certain flights
-    b.Show Pilots on board certain flights
+    1.  Show Passengers on board certain flights
+    2.  Show Pilots on board certain flights
 3.	Allocate Personnel to Airplanes for Maintenance
-    a.Add Service Workers to work on a Plane
+    1.  Add Service Workers to work on a Plane
 4.	Add new Airplanes to the System
 5.	Manage Flight schedules with regards to people.
 6.	Manage  Flights with respect to Airplanes.
+
 •	The database designed should be actively linked to the webpage.
 •	Certain people should have access to change data in the system.
 
