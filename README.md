@@ -1,5 +1,29 @@
 # Airplane-Management-System
 Airline Management System is a software based service that provides users with the ability to interact with a system that keeps a record of the  Flights, Passengers, Pilots, Service Staff, Flight Controllers,  available Airports, available Airplanes, and even   the list of  Owners. 
+## Why the need?
+With the advent of the 21st century and interaction between countries and tourism exponentially increasing interaction between countries as a result flights to and from countries are   exponentially increasing hence providing efficient data integrated solutions with a one-stop shop capable of not only managing Flights but also encapsulating the key interactions inside an Airport can facilitate not only end-users but also Airport staff.
+
+The current solutions airports provide are primarily based on  two-completely different system i.e. one to manage passengers and another to manage  airport staff. This results in redundancy in data that our solution tends to avoid, by creating a networked model capable of storing normalized data. For example, there can be redundancy when both “Sam” is categorized as a Passenger and a Pilot even though he was a Passenger for the Flight from London to Lahore on 21/04/22, and a Pilot for 32 other flights. This results in a mixture of data that can be easily solved by normalizing our table in a single Point of Interest (POI).
+The main objective of our system also tends to  provide   the ability to manage in house workers by allotting  Pilots to fly certain Flights ,Flight Controllers to work at a certain Airport, and Service Workers to maintain certain Airplanes.  It also allows us the capability to add new persons to the database, that can be further categorized in Airport Workers or Passengers. Besides this, like generic Flight Management System our System also holds the capability to book Airplanes from one destination to another. 
+The website will provide interface to the user through which they can get the end result. The system will also allow the users make their own accounts so that they can register themselves and also can save either operate the system as an Airport worker or look into available flights as a Passenger.
+## Design Requirements
+The design requirements of the given problem statement were as follows:
+•	To design an Airport Management System with the basic functionalities:
+1.	Insert new People into the system
+    a.Insert new Pilots
+    b.Insert new Service Workers
+    c.Insert new Passengers
+    d.Insert new Flight Controllers
+2.	Show new Flights
+    a.Show Passengers on board certain flights
+    b.Show Pilots on board certain flights
+3.	Allocate Personnel to Airplanes for Maintenance
+    a.Add Service Workers to work on a Plane
+4.	Add new Airplanes to the System
+5.	Manage Flight schedules with regards to people.
+6.	Manage  Flights with respect to Airplanes.
+•	The database designed should be actively linked to the webpage.
+•	Certain people should have access to change data in the system.
 
 
 # Getting Started with Create React App
