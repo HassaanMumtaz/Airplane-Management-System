@@ -39,6 +39,7 @@ There were a number of assumptions we had to take into account before implementi
 
 Furthermore, we also had to keep in mind the basic crux of how all these entities will interact with each other and drawing relationships(M-N, M-1,1-M) resulted in a more comprehensive database design. 
 
+![image](https://user-images.githubusercontent.com/53343462/185743894-a9a553da-4847-47b0-9a41-d4d82047458b.png)
 
 # Getting Started with Create React App
 
