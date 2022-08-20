@@ -9,7 +9,7 @@ The website will provide interface to the user through which they can get the en
 ## Design Requirements
 The design requirements of the given problem statement were as follows:
 •	To design an Airport Management System with the basic functionalities:
-1.	Insert new People into the system
+#### 1.	Insert new People into the system
     1.  Insert new Pilots
     2.  Insert new Service Workers
     3.  Insert new Passengers
