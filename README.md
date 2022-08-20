@@ -26,6 +26,19 @@ The design requirements of the given problem statement were as follows:
 #### • The database designed should be actively linked to the webpage.
 #### • Certain people should have access to change data in the system.
 
+## System Design
+To create a necessary design for our database first we had to create  a list of essential necessities using the highlighted  design requirements:
+
+There were a number of assumptions we had to take into account before implementing our EER Diagram:
+##### 1. Only a Corporation can be an Owner.
+##### 2. A number of Owners can own an Airplane.
+##### 3. An Airplane can have a number of flights (One to Many relation).
+##### 4. Many Passengers can reserve many seats on a Flight(Many to Many).
+##### 5. There are only 4 types of people Passenger,Pilot,Flight Controller, and Service Staff.
+##### 6. One Airplane can be served by N number of Service staff. 
+
+Furthermore, we also had to keep in mind the basic crux of how all these entities will interact with each other and drawing relationships(M-N, M-1,1-M) resulted in a more comprehensive database design. 
+
 
 # Getting Started with Create React App
 
