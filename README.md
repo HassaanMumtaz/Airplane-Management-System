@@ -141,3 +141,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Experimental Output
+### Front-End for Showing Available Flights
+![image](https://user-images.githubusercontent.com/53343462/185782186-56097c83-7477-4059-ab79-c6a32e0e401f.png)
+
+### Showing Options for Passengers to book a flight
+![image](https://user-images.githubusercontent.com/53343462/185782210-f3a7bd86-70c7-45a9-a2db-2e1a21ffe284.png)
+
+### Successfully booked.
+![image](https://user-images.githubusercontent.com/53343462/185782219-ec00d6cd-3d16-4b2c-a588-956a2dbb95d2.png)
+
+
+
