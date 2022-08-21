@@ -54,9 +54,9 @@ Essentially our systems covers every services that unifies and simplifies the wo
     a.  getFlightDetails: This allows us to input a certain destination, current location, date of arrival and departure. This allows us to cross examine either all           available flights to a location, all flights from a location, all flights regardless of anything, all flights from  a specific location to a specific                   destination,and all flights a specific location to a specific destination on a specific day.
     b.  addNewPassengers: This allows us to input a new person into the PERSON and PASSENGER tables. 
     c.  BookingFlight: This allows us to book a specific flight on a specifc flight number by using the name of the person that is booking this flight. If we book it           properly then our procedure extracts the CNIC of the person who’s name for example is “Rashid” and then inputs the values of Flight Number and CNIC into the           RESERVES table.
-    d.	CurrentPassenger: To get a list of passengers from a specific flight we join both RESERVES and PASSENGERS to get the name of the people on that flight. 
-    e.	addNewFlight: This allows us to create a new flight using all the data provided, and using it to insert into AIRPLANE and FLIGHT.
-    f.	getFlightController: To get a list of available flight controllers in the database.
+    d.CurrentPassenger: To get a list of passengers from a specific flight we join both RESERVES and PASSENGERS to get the name of the people on that flight. 
+    e.addNewFlight: This allows us to create a new flight using all the data provided, and using it to insert into AIRPLANE and FLIGHT.
+    f.getFlightController: To get a list of available flight controllers in the database.
     g.	getCorporationName: To get the name of the Corporation that owns the Airplane with that ID.
     h.	addNewCorporation: This adds a  new Owner
     i.	addNewAirport: This adds a new Airport
