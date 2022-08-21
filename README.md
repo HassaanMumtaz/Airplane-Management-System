@@ -51,20 +51,20 @@ Essentially our systems covers every services that unifies and simplifies the wo
 #### 3.	Creating DML based ALTER commands to update necessary data by using CASCADING updating or deletion.
 #### 4.	Creating DML based INSERT commands to run our necessary data into the tables. We then use all the Primary Key and Foreign Key  constraints to make our data  less redundant. Furthermore, the division of data is done so as to not need extensive Normalization.
 #### 5.	We move on to implementing STORED PROCEDURES for individual task execution.
-    a.  getFlightDetails: This allows us to input a certain destination, current location, date of arrival and departure. This allows us to cross examine either all           available flights to a location, all flights from a location, all flights regardless of anything, all flights from  a specific location to a specific                   destination,and all flights a specific location to a specific destination on a specific day.
-    b.  addNewPassengers: This allows us to input a new person into the PERSON and PASSENGER tables. 
-    c.  BookingFlight: This allows us to book a specific flight on a specifc flight number by using the name of the person that is booking this flight. If we book it           properly then our procedure extracts the CNIC of the person who’s name for example is “Rashid” and then inputs the values of Flight Number and CNIC into the           RESERVES table.
-    d.CurrentPassenger: To get a list of passengers from a specific flight we join both RESERVES and PASSENGERS to get the name of the people on that flight. 
-    e.addNewFlight: This allows us to create a new flight using all the data provided, and using it to insert into AIRPLANE and FLIGHT.
-    f.getFlightController: To get a list of available flight controllers in the database.
-    g.	getCorporationName: To get the name of the Corporation that owns the Airplane with that ID.
-    h.	addNewCorporation: This adds a  new Owner
-    i.	addNewAirport: This adds a new Airport
-    j.	addNewAirplane: This adds a new airplane using data from an already available airport.
-    k.	getServiceStaff: Gets a list of service staff working on a specific plane
-    l.	getPilot: Gets Pilot data to fly a specific flight.
-    m.	addNewPilot: Adds a new pilot to the pool of people.
-    n.	addServiceSchedule: Add a new service for a specific plane and assigns people in that city.
+    a. getFlightDetails: This allows us to input a certain destination, current location, date of arrival and departure. This allows us to cross examine either all            available flights to a location, all flights from a location, all flights regardless of anything, all flights from  a specific location to a specific                  destination,and all flights a specific location to a specific destination on a specific day.
+    b. addNewPassengers: This allows us to input a new person into the PERSON and PASSENGER tables. 
+    c. BookingFlight: This allows us to book a specific flight on a specifc flight number by using the name of the person that is booking this flight. If we book it          properly then our procedure extracts the CNIC of the person who’s name for example is “Rashid” and then inputs the values of Flight Number and CNIC into the            RESERVES table.
+    d. CurrentPassenger: To get a list of passengers from a specific flight we join both RESERVES and PASSENGERS to get the name of the people on that flight. 
+    e. addNewFlight: This allows us to create a new flight using all the data provided, and using it to insert into AIRPLANE and FLIGHT.
+    f. getFlightController: To get a list of available flight controllers in the database.
+    g. getCorporationName: To get the name of the Corporation that owns the Airplane with that ID.
+    h. addNewCorporation: This adds a  new Owner
+    i. addNewAirport: This adds a new Airport
+    j. addNewAirplane: This adds a new airplane using data from an already available airport.
+    k. getServiceStaff: Gets a list of service staff working on a specific plane
+    l. getPilot: Gets Pilot data to fly a specific flight.
+    m. addNewPilot: Adds a new pilot to the pool of people.
+    n. addServiceSchedule: Add a new service for a specific plane and assigns people in that city.
 #### 6.	We then implemented our front-end design using React.js that allowed us to configure our services using basic HTML/CSS formatting to create necessary boxes for data visuals and data insertion i.e. if data is imported showing data in tabular format.
 #### 7. Next we used Express.js that is a library in the framework of Node.js to configure connections to our SQL Server. This allowed us to use SQL Scripting         embedded in our Node.js to CRUD(Create,Read,Update and Delete) anything.
 
